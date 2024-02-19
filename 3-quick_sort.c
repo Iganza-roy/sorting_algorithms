@@ -5,7 +5,7 @@
  * @a: First integer
  * @b: Second integer
  *
- * Return: void
+ * Return: nothing
  */
 void swap(int *a, int *b)
 {
@@ -55,7 +55,7 @@ int lomuto_partition(int *array, size_t size, int low, int high)
  * @low: Starting index of subarray
  * @high: Ending index of subarray
  *
- * Return: void
+ * Return: nothing
  */
 void quicksort(int *array, size_t size, int low, int high)
 {
@@ -75,7 +75,7 @@ void quicksort(int *array, size_t size, int low, int high)
  * @array: Array to sort
  * @size: Size of array
  *
- * Return: void
+ * Return: nothing
  */
 void quick_sort(int *array, size_t size)
 {
